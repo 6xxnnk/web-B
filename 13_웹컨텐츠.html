@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹컨텐츠</title>
+
+
+
+    <style>
+        * {
+            margin:0;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        li { 
+            list-style: none;
+        }
+
+        a { text-decoration:none ;
+            color: inherit;
+        }
+
+        .section-01
+        {
+            background-color: rgb(255, 226, 133);
+            
+            width: 1280px;
+            margin: 0 auto;
+        }
+
+        .section-01 .list
+        { 
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .section-01 .list h2
+        { font-size: 40px;
+            margin-bottom: 40px;    
+         }
+
+
+         .section-01 .list .item
+        {
+            width: 300px;
+            background-color: azure ;
+            border: 1px solid black ;
+
+        }
+
+
+
+        .section-02 {
+            background: url(img/초록\ 배경.jpg) center center / cover no-repeat;
+            padding: 200px 0 ;}
+
+            
+        .section-02 .inner {
+            width: 1280px;
+            margin: 0 auto;
+        
+           
+        }
+
+        .section-02 .inner h2 {
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+
+          
+         .section-02 .inner .list{
+            display: flex;
+            justify-content: space-between;
+      }
+
+    
+        
+        .section-02 .inner .list .item {
+           
+            border : 1px solid black;
+            width: 400px ;
+
+            background-color: hsla(130, 100%, 99%, 0.395) ;
+            backdrop-filter: blur(5px);
+            padding: 20px;
+
+        }
+
+
+
+
+
+
+        .section-03 {
+            background-color: bisque;
+            padding: 100px 0 ;
+        }
+
+        .section-03 .inner {
+            width: 1280px;
+            margin: 0 auto;
+    
+        }
+
+
+        .section-03 .inner h2 {
+            font-size: 40px;
+            margin-bottom: 40px ;
+        }
+
+
+        .section-03 .inner .list {
+            display: flex;
+            justify-content: space-between;
+   
+           
+        }
+
+        .section-03 .inner .list .item {
+             width: 300px;
+        }
+
+        .section-03 .inner .list .item img{
+            width: 300px;
+            height: 300px ;
+            object-fit: cover;
+          
+
+
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="section-01">
+       
+        <h2> 이건 첫번째 섹션 </h2>
+        <div class="list">
+             <div class="item">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reprehenderit a repellendus maxime, ipsam, voluptas consequatur molestias soluta, cupiditate consequuntur eveniet cumque quidem obcaecati dignissimos ad. Doloribus facere eaque vero.</p>
+             </div>
+             <div class="item">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reprehenderit a repellendus maxime, ipsam, voluptas consequatur molestias soluta, cupiditate consequuntur eveniet cumque quidem obcaecati dignissimos ad. Doloribus facere eaque vero.</p>
+             </div>
+             <div class="item">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reprehenderit a repellendus maxime, ipsam, voluptas consequatur molestias soluta, cupiditate consequuntur eveniet cumque quidem obcaecati dignissimos ad. Doloribus facere eaque vero.</p>
+             </div>
+             <div class="item">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reprehenderit a repellendus maxime, ipsam, voluptas consequatur molestias soluta, cupiditate consequuntur eveniet cumque quidem obcaecati dignissimos ad. Doloribus facere eaque vero.</p>
+             </div>
+        </div>
+
+    
+    </div><!-- section-01 end -->
+    
+
+    <div class="section-02">
+        <div class="inner">
+        <h2> 이건 두번째 섹션 </h2>
+            <div class="list">
+                    <div class="item">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iste voluptas explicabo debitis alias, quae, delectus, culpa voluptatum obcaecati nihil dolor magnam rem eveniet tempore amet molestias molestiae impedit perspiciatis.</p>
+                    </div><!-- item end -->
+                    
+                    <div class="item">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iste voluptas explicabo debitis alias, quae, delectus, culpa voluptatum obcaecati nihil dolor magnam rem eveniet tempore amet molestias molestiae impedit perspiciatis.</p>
+                    </div><!-- item end -->
+                    
+                    <div class="item">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iste voluptas explicabo debitis alias, quae, delectus, culpa voluptatum obcaecati nihil dolor magnam rem eveniet tempore amet molestias molestiae impedit perspiciatis.</p>
+                    </div><!-- item end -->
+            </div><!-- list end -->
+        </div><!-- inner end -->
+    </div><!--section-02 end  -->
+    
+
+
+    <div class="section-03">
+        <div class="inner">
+            <h2>이건 세번째 섹션</h2>
+
+
+            <div class="list">
+                <div class="item">
+                    <img src="img/하트장미.jpg">
+
+                    <div class=" text">
+                        <h3> 아이템 제목</h3>
+                        <p> 아이템에 대한 설명 내용들</p>
+                    </div><!-- text end -->
+                 </div><!-- item end -->
+                <div class="item">
+                    <img src="img/아이템.jpg">
+
+                    <div class=" text">
+                        <h3> 아이템 제목</h3>
+                        <p> 아이템에 대한 설명 내용들</p>
+                    </div><!-- text end -->
+                 </div><!-- item end -->
+                <div class="item">
+                    <img src="img/아이템2.jpg">
+
+                    <div class=" text">
+                        <h3> 아이템 제목</h3>
+                        <p> 아이템에 대한 설명 내용들</p>
+                     </div><!-- text end -->
+                 </div><!-- item end -->
+
+                <div class="item">
+                    <img src="img/아이템3.jpg">
+
+                    <div class=" text">
+                        <h3> 아이템 제목</h3>
+                        <p> 아이템에 대한 설명 내용들</p>
+
+
+
+                    </div><!-- text end -->
+                 </div><!-- item end -->
+            </div><!-- list end -->
+    </div><!-- section-03 end -->
+
+
+
+
+
+    
+    </div><!-- section-03 end -->
+</body>
+</html>
